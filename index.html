@@ -57,7 +57,10 @@ header{
     font-weight:700;
     color:#2563eb;
 }
-
+.logo a{
+    text-decoration:none;
+    color:#2563eb;
+}
 .nav-links{
     display:flex;
     list-style:none;
@@ -138,7 +141,11 @@ header{
 .hero-content h1 span{
     color:#2563eb;
 }
-
+.hero-intro{
+    color:#555;
+    font-size:18px;
+    margin-bottom:15px;
+}
 .hero-content h2{
     font-size:28px;
     color:#3b82f6;
@@ -155,6 +162,7 @@ header{
     display:inline-flex;
     align-items:center;
     gap:10px;
+    margin-right:10px;
     background:#2563eb;
     color:white;
     text-decoration:none;
@@ -450,9 +458,9 @@ footer{
 
         <nav class="navbar">
 
-            <div class="logo">
-                Anjali Dev D
-            </div>
+           <div class="logo">
+    <a href="#home">Anjali Dev D</a>
+</div>
 
             <ul class="nav-links">
 
@@ -462,7 +470,6 @@ footer{
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#learning">Learning</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#community">Community</a></li>
                 <li><a href="#contact">Contact</a></li>
 
             </ul>
@@ -487,9 +494,8 @@ footer{
 
             </div>
 
-            <p class="photo-note">
-                Upload Your Photo
-            </p>
+            
+            
 
         </div>
 
@@ -498,8 +504,10 @@ footer{
             <h1>
                 Hi, I'm <span>Anjali Dev D</span>
             </h1>
-
-            <p style="color:#2563EB;font-size:20px;font-weight:bold"> Engineering student passionate about AI and Data Science.</p>
+            <p class="hero-intro">
+    I’m a 2nd-year CSE student interested in Python, software development, and building practical projects.
+</p>
+            <p style="color:#2563EB;font-size:20px;font-weight:bold">Computer Science Engineering student | Python & Software Development</p>
 
             <div class="hero-buttons">
 
@@ -511,7 +519,13 @@ footer{
                     LinkedIn
 
                 </a>
+               <a href="https://github.com/Anjali-007-hub"
+    target="_blank" class="btn">
 
+    <i class="fab fa-github"></i>
+    GitHub
+
+</a>
             </div>
 
         </div>
@@ -528,9 +542,7 @@ footer{
 
             <p>
 
-                I am Anjali Dev, currently pursuing a B.Tech in Computer Science Engineering. I enjoy coding in Python
-                and C and am passionate about expanding my knowledge of Artificial Intelligence and software
-                development. I am always eager to learn new technologies and improve my problem-solving skills.
+              I am a 2nd-year Computer Science Engineering student with an interest in Python, software development, and data science. I enjoy building practical projects, learning new technologies, and improving my problem-solving skills. I am currently strengthening my programming and development skills through academic projects and continuous practice.
 
             </p>
 
@@ -592,18 +604,15 @@ footer{
     <section id="skills" class="section">
 
         <h2>Skills</h2>
-
+<p style="text-align:center;color:#666;margin-bottom:30px;">
+    Technologies and skills I am currently developing and using.
+</p>
         <div class="skills-grid">
 
             <span>Python</span>
-            <span>C</span>
-            <span>Git Basics</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
+            <span>C Programming</span>
             <span>Problem Solving</span>
             <span>Teamwork</span>
-            <span>Leadership</span>
             <span>Communication</span>
 
         </div>
@@ -624,11 +633,8 @@ footer{
         <br>
 
         <div class="skills-grid">
-            <span>NumPy</span>
-            <span>Pandas</span>
-            <span>Matplotlib</span>
+            <span>Python</span>
             <span>Data Science</span>
-            <span>Git & GitHub</span>
             <span>Problem Solving</span>
         </div>
 
@@ -646,8 +652,7 @@ footer{
         <h3>📊 SkillTrack</h3>
 
         <p>
-            A web-based dashboard for tracking skills, courses,
-            goals, and achievements.
+            A student skill-tracking web application designed to manage skills, learning progress, goals, and achievements in one place.
         </p>
 
         <br>
@@ -666,8 +671,7 @@ footer{
         <h3>📈 Student Performance Analysis</h3>
 
         <p>
-            A beginner-level data science project that analyses
-            student performance using Python, Pandas, NumPy, and Matplotlib.
+           A beginner-friendly data science project that explores and visualizes student performance data using Python and popular data analysis libraries.
         </p>
 
         <br>
@@ -682,26 +686,15 @@ footer{
 </section>
 
 
-    <!-- Community -->
-
-    <section id="community" class="section">
-
-        <h2>Communities & Programs</h2>
-
-        <div class="badge">
-
-            IEEE
-
-        </div>
-
-    </section>
 
     <!-- Contact -->
 
     <section id="contact" class="section">
 
         <h2>Connect</h2>
-
+<p style="text-align:center;color:#666;margin-bottom:30px;">
+    Feel free to connect with me for projects, collaboration, or opportunities.
+</p>
         <div class="contact-links">
 
             <a href="mailto:anju2007313@gmail.com">
@@ -720,14 +713,18 @@ footer{
                 LinkedIn
 
             </a>
+            <a href="https://github.com/Anjali-007-hub"
+    target="_blank">
 
+    <i class="fab fa-github"></i>
+    GitHub
+
+</a>
         </div>
 
     </section>
 
     <footer>
-
-        © 2026 Anjali Dev D. All Rights Reserved.
 
     </footer>
 <script>
