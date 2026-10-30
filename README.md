@@ -54,7 +54,7 @@ Project Structure
 
 Portfolio/
 │
-├── portfolio.html
+├── index.html
 └── README.md
 
 
